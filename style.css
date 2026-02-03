@@ -1,0 +1,189 @@
+/*p{*/
+/*    color: blue;*/
+/*}*/
+
+/*.title {*/
+/*    color: blue;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.content {*/
+/*    color: yellow;*/
+/*}*/
+/*.text {*/
+/*    font-weight: bold;*/
+/*}*/
+/*#aaa{*/
+/*    color: yellow;*/
+/*}*/
+/*!* x选择所有类名为content的元素 同时必须是div元素 才能变成蓝色 *!*/
+/*div.content#ccc{*/
+/*    color: red;*/
+/*}*/
+/*div.content div p {*/
+/*    color: aquamarine;*/
+/*}*/
+/*div.content > p {*/
+/*    color: aquamarine;*/
+/*}*/
+/*.first{color:red}*/
+/*.first~*{color:red}*/
+/*a[href*="com"]{*/
+/*    color: green;*/
+/*}*/
+/*a[id="aaaa"]{*/
+/*    color: yellow;*/
+/*}*/
+/*.test{color: red}*/
+/*.test { color: red; }*/
+/*#aaa { color: blue; }*/
+/*!*#aaa.test { color: green; }*!*/
+/*p.test { color: red; }*/
+/*!*(0,0,1,1)*!*/
+/*#aaa.test { color: blue; }*/
+/*!*(0,1,1,0)*!*/
+/*p.test#aaa { color:pink; }*/
+/*!*(0,1,1,1)*!*/
+/*p[id="aaa"] { color: green; }*/
+/*!*(0,0,1,1)*!*/
+/*!*!*行列样式*!style { color: red; }*!*/
+/*!*id选择器*!*/
+/*!*类选择器 属性选择器 伪类选择器*!*/
+/*!*元素选择器 伪元素选择器 标签选择器*!*/
+/*!*优先级一样时 谁写后面那个优先级更高*!*/
+/*标签选择器*/
+/*p.test.xxx{color:red}（0，0，2，1）*/
+/*p#aaa.xxx{color:blue}（0，1，1，1）*/
+/*p[role="button"]#aaa{color:green}（0，1，1，1）*/
+/*.test.xxx#aaa{color:pink}（0，1，2，0）*/
+/*p[role="button"].test.xxx{color:purple}（0，0，3，1）*/
+/*.test{*/
+/*    color: red !important;*/
+/*}*/
+/*p{*/
+/*    color: pink !important;*/
+/*}*/
+/*.test{*/
+/*    color: red !important;*/
+/*}*/
+/*.t1 {color: blue}*/
+/*.t1 > div{*/
+/*    color: unset;*/
+/*}*/
+/*#app{*/
+/*    font-family: fantasy;*/
+/*}*/
+/*p{*/
+/*    font-size: large;*/
+/*}*/
+/*h1{*/
+/*    font-size: 7px;*/
+/*}*/
+/*.test{*/
+/*    font-size:12px;*/
+/*}*/
+/*.test{*/
+/*    font-size: 1.5em;*/
+/*}*/
+/*字重范围是100~900 默认是400  通常是100 400(normal) 700（bold）这几个规格*/
+/*.test{*/
+/*    !*font-style: italic;*!*/
+/*    font-style: oblique;*/
+/*}*/
+/*通常用italic*/
+/*oblique不支持斜体的文本可以用这个直接转换*/
+/*字体颜色*/
+/*。test{*/
+/*    color: darkgreen;*/
+/*}*/
+/*.test{*/
+/*    color: red;*/
+/*}*/
+/*.test{*/
+/*    color: rgba(179, 0, 255, 0.5);*/
+/*}*/
+/*一定要注意这个文本的中英文尤其是上述*/
+/*颜色有两种方式调节 一个是通过color来直接添加颜色名称  还有就是通过rgb*/
+/*(0,0,0)#000000  (0,0,0)#FFFFFF*/
+/*文本样式*/
+/*首行缩进*/
+/*&nbsp空格键*/
+/*.test p{*/
+/*    text-indent: 2em;*/
+/*}*/
+/*水平对齐 居中居左居右*/
+/*text-align是影响块级元素内部的行内元素的对齐方式*/
+/*.test{*/
+/*    text-align: right;*/
+/*}*/
+/*.test p{*/
+/*    text-align: center;*/
+/*}*/
+/*文本修饰*/
+/*横线（上 中 下）*/
+/*p span {*/
+/*    text-decoration: overline red double 3px;  !* 默认情况下为none表示没有任何修饰 *!*/
+/*}*/
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*中划线 HTML<s></s>  CSS line-through*/
+/*P{*/
+/*    text-transform: capitalize;*/
+/*    三个大写  capitalize（首字母大写）*/
+/*}*/
+/*p{*/
+/*    word-spacing: 200px;*/
+/*}*/
+/*文本换行 normal(不直接截断单词换行 而是在两者单词中间换行) break-all(直接截断单词然后换行)*/
+/*p{*/
+/*    word-break: normal;*/
+/*    text-wrap: nowrap;*/
+/*}*/
+/*文本空白处理*/
+/*p{*/
+/*    word-break: break-all;*/
+/*    white-space: pre-line;*/
+/*}*/
+/*练习*/
+p{
+    font-family: sans-serif;
+    /*文本字体系列*/
+    font-size: 16px;
+    /*文本大小*/
+    font-weight: bold;
+    /*bold normal light(变细)*/
+    /*文本自重*/
+    font-style: italic;
+    /*italic*/
+    /*主要是斜体和正常字体的区分*/
+    text-decoration:underline;
+    /*word-spacing  letter-spacing这两者的区别前者是对于单词之间的间距  后者是对于文本的字间距*/
+    /*text-indent(首行缩进) text-align(居中还是居左居右)*/
+    /*文本颜色控制是  color*/
+    /*注释  css: !**! html: <!-- -->*/
+    /*#xxx id选择器 .xxx类选择器*/
+    /*p span p > span这两者一个是对p下面的全部生效 另一个是对p下面的一层生效*/
+    /*p + span 选兄弟 但只能一行*/
+    /*p~span选兄弟 选所用行*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
