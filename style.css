@@ -146,30 +146,82 @@
 /*    white-space: pre-line;*/
 /*}*/
 /*练习*/
-p{
-    font-family: sans-serif;
-    /*文本字体系列*/
-    font-size: 16px;
-    /*文本大小*/
-    font-weight: bold;
-    /*bold normal light(变细)*/
-    /*文本自重*/
-    font-style: italic;
-    /*italic*/
-    /*主要是斜体和正常字体的区分*/
-    text-decoration:underline;
-    /*word-spacing  letter-spacing这两者的区别前者是对于单词之间的间距  后者是对于文本的字间距*/
-    /*text-indent(首行缩进) text-align(居中还是居左居右)*/
-    /*文本颜色控制是  color*/
-    /*注释  css: !**! html: <!-- -->*/
-    /*#xxx id选择器 .xxx类选择器*/
-    /*p span p > span这两者一个是对p下面的全部生效 另一个是对p下面的一层生效*/
-    /*p + span 选兄弟 但只能一行*/
-    /*p~span选兄弟 选所用行*/
-
+/*p{*/
+/*    font-family: sans-serif;*/
+/*    !*文本字体系列*!*/
+/*    font-size: 16px;*/
+/*    !*文本大小*!*/
+/*    font-weight: bold;*/
+/*    !*bold normal light(变细)*!*/
+/*    !*文本自重*!*/
+/*    font-style: italic;*/
+/*    !*italic*!*/
+/*    !*主要是斜体和正常字体的区分*!*/
+/*    text-decoration:underline;*/
+/*    !*word-spacing  letter-spacing这两者的区别前者是对于单词之间的间距  后者是对于文本的字间距*!*/
+/*    !*text-indent(首行缩进) text-align(居中还是居左居右)*!*/
+/*    !*文本颜色控制是  color*!*/
+/*    !*注释  css: !**! html: <!-- -->*!*/
+/*    !*#xxx id选择器 .xxx类选择器*!*/
+/*    !*p span p > span这两者一个是对p下面的全部生效 另一个是对p下面的一层生效*!*/
+/*    !*p + span 选兄弟 但只能一行*!*/
+/*    !*p~span选兄弟 选所用行*!*/
+/*}*/
+/*盒子*/
+/*内容区 边框 外边框 内边距*/
+/*内容区域*/
+/*.outer-box{*/
+/*    width: 400px;*/
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*}*/
+/*.inner-box{*/
+/*    height: 2000%;*/
+/*    width: 10%;*/
+/*    background-color: darkblue;*/
+/*}*/
+/*body {*/
+/*    width:2px;*/
+/*}*/
+/*html{*/
+/*    width:40px*/
+/*}*/
+/*背景样式（背景颜色 背景图片）*/
+/*.box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: rgba(0, 255, 166, 0.45);*/
+/*}*/
+/*.highlight {*/
+/*    background-color: #0000ff;*/
+/*}*/
+/*background-image 要使用url这个函数 背景图片*/
+/*background-size预设值 auto(根据背景图片的固有尺寸来展示) cove（缩放优先选择窄的一边进行缩放） contain（宽 可能会重复展示）*/
+/*.test-box {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    !* 使用url函数引用内部或外部图片地址 *!*/
+/*     background: red url() top left / 10px 10px no-repeat; */
+/*}*/
+/*边框 （宽度 样式 颜色）*/
+/*.test-box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    border-width: 20px;*/
+/*    border-style: ridge;*/
+/*    border-color: red;*/
+/*    border-right: 20px ridge yellow;*/
+/*    background-color: blue;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*上述盒子的宽度是520 边框不是嵌套在内容区域内部 而是在内容区再加宽度*/
+/*内边距*/
+.test-box {
+    width: 200px;
+    height: 50px;
+    background-color: cornflowerblue;
+    padding: 20px 5px 10px 50px;  /* 控制盒子的内边距 */
 }
-
-
 
 
 

@@ -1,0 +1,385 @@
+/*.test-box {*/
+/*    box-sizing: border-box;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: cornflowerblue;*/
+/*    padding: 20px;  !* 控制盒子的内边距 *!*/
+/*    !*上右下左*!*/
+/*    border: red 2px solid;*/
+/*!*外边距 用于元素外部与其他元素之间的距离*!*/
+
+/*}*/
+/*.test {*/
+/*      width: fit-content;*/
+/*!*}*!*/
+/*.out-box{*/
+/*    padding: 20px;*/
+/*    width: 300px;*/
+/*    height: 200px;*/
+/*    margin: auto;*/
+/*    background-color: dodgerblue;*/
+/*}*/
+/*.inner-box{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: orange;*/
+/*    margin: 30px;*/
+/*}*/
+/*.test-box {*/
+/*    width: 200px;*/
+/*    height: 50px;*/
+/*    margin: 20px;   !* 此时两个盒子都具有外边距 *!*/
+/*    background-color: cornflowerblue;*/
+/*}*/
+/*.outer-box {*/
+/*    width: 200px;*/
+/*    height: 50px;*/
+/*    margin-top: 10px;*/
+/*    padding-top: 1px;*/
+/*    background-color: cornflowerblue;*/
+/*}*/
+/*.inner-box {*/
+/*    width: 100px;*/
+/*    height: 30px;*/
+/*    background-color: red;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*用户代理样式表*/
+/*滚动区域*/
+/*.box {*/
+/*    width: 200px;*/
+/*    height: 100px;*/
+/*    background-color: #f0f0f0;*/
+/*    white-space: nowrap;*/
+/*    overflow: auto;*/
+/*    padding: 20px;*/
+/*    border: 1px solid black;*/
+/*}*/
+/*.box{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: #fafafa;*/
+/*    !*背景颜色*!*/
+/*    border: 1px solid red;*/
+/*    !*边框*!*/
+/*    padding: 8px 12px;*/
+/*    !*内边距*!*/
+/*    border-radius: 8px;*/
+/*    !*圆角*!*/
+/*    font*/
+/*    !*字体*!*/
+/*    !*主色和辅色*!*/
+
+/*}*/
+
+/*定位布局*/
+/*相对布局*/
+/*.inner-box {*/
+/*    width: 100px;*/
+/*    height: 50px;*/
+/*    background-color: cornflowerblue;*/
+/*    position: fixed;*/
+/*    !*固定定位  视角一直不变*!*/
+/*    left: 50px;*/
+/*    !* 使用定位布局后，我们需要手动指定盒子上下左右的位置，使用left、right、top、bottom *!*/
+/*    !*虽然用相对定位移动了盒子 但是其盒子所占有的大小和位置都没有改变  只不过视觉效果发生了位移*!*/
+/*}*/
+/*.outer-box {*/
+/*    margin-top: 50px;*/
+/*    width: 400px;*/
+/*    height: 2000px;*/
+/*    border: 1px solid black;*/
+/*    position: relative;*/
+
+/*}*/
+/*.outer-box {*/
+/*    height: 2000px;  !* 注意父元素的高度不能低于粘滞元素的高度 *!*/
+/*}*/
+
+/*.sticky-box {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*    position: sticky;*/
+/*    top: 30px;*/
+/*}*/
+/*!*包含块*! 子元素的参考系*/
+/*.outer-box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: blue;*/
+/*}*/
+/*.simple-box{*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    background-color: red;*/
+/*    position: fixed;*/
+/*    bottom: 0px;*/
+/*    right: 0px;*/
+/*}*/
+/*.box {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.a {*/
+/*    background-color: red;*/
+/*    left: 50px;*/
+/*    top: 50px;*/
+/*    z-index: 13;*/
+/*}*/
+
+/*.b {*/
+/*    background-color: blue;*/
+/*    left: 80px;*/
+/*    top: 80px;*/
+/*}*/
+/*层级上下文*/
+/*.grid-box {*/
+/*    gap: 10px;*/
+/*    height: 400px;*/
+/*    background: #000;*/
+/*    display: grid;*/
+/*    justify-items: center;*/
+/*    justify-content: end;*/
+/*    grid-template-columns: repeat(4, 150px);*/
+/*    grid-auto-rows: 150px;  !* 自动扩展的列数高度也给到150px *!*/
+/*}*/
+
+/*.grid-item {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*}*/
+/*.grid-item { background-color: gray; }*/
+/*.header  { grid-area: header; }*/
+/*.nav { grid-area: aside; }*/
+/*.content    { grid-area: main; }*/
+/*.footer  { grid-area: footer; }*/
+/*.grid-box {*/
+/*    display: grid;*/
+/*    gap: 1px;   !* 间距留窄一点方便观察 *!*/
+/*    grid-template-columns: 200px 200px 300px;*/
+/*    grid-template-rows: 50px 200px 50px;*/
+
+/*    grid-template-areas:*/
+/*    "header header header"   !* 从上往下从左往右，编写每个格子分别属于哪个盒子，连续的两个或多个格子会自动相连 *!*/
+/*    "aside    . main"*/
+/*    "aside    footer footer";*/
+/*}*/
+/*.flex-box {*/
+/*    gap: 10px;*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
+
+/*.flex-item {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    !*flex-shrink: 1;*!*/
+/*    background-color: red;*/
+/*    !*flex-grow: 1;*!*/
+/*    !*flex-basis: 100px;*!*/
+/*    flex: 1 0 auto;*/
+/*}*/
+/*.main-window{*/
+/*    display: flex;*/
+/*    height: 300px;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.header{*/
+/*    height: 50px;*/
+/*    background-color: blue;*/
+/*}*/
+/*.main-content{*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*}*/
+/*.aside{*/
+/*    width: 200px;*/
+/*    background-color: #a2ff00;*/
+/*}*/
+/*.right-window{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex: 1;*/
+/*}*/
+/*.main{*/
+/*    height: 125px;*/
+/*    background-color: #dd00ff;*/
+/*}*/
+/*.footer{*/
+/*    flex: 1;*/
+/*    background-color: #8e5323;*/
+/*}*/
+/*.container{*/
+/*    height: 2000px;*/
+/*    background-repeat: no-repeat;*/
+/*    overflow: hidden;*/
+/*    background-size: contain;*/
+/*    background-position: center;*/
+/*    background-attachment: fixed;*/
+/*    background-image: url("https://ts3.tc.mm.bing.net/th/id/OIP-C.ZtyrGmDHGuS5970hU7AWpQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3");*/
+
+/*}*/
+/*导航栏*/
+/*如何固定（固定定位 粘滞定位）*/
+/*body{*/
+/*    margin: 0;*/
+/*    font-family: '微软雅黑', serif;*/
+/*}*/
+/*.container{*/
+/*    height: 2000px;*/
+/*    padding-top: 60px;*/
+/*}*/
+/*.nav{*/
+/*    height: 60px;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    border-bottom: 1px #ccc solid;*/
+/*    background-color: rgba(152, 184, 152, 0.91);*/
+/*    position: fixed;*/
+/*    box-sizing: border-box;*/
+/*    padding: 0 20px;*/
+/*}*/
+
+/*.nav .nav-left{*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.nav .nav-left .logo-image{*/
+/*    width: 112px;*/
+/*    height: 44px;*/
+/*}*/
+/*.nav .nav-center{*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.split-line{*/
+/*    height: 45px;*/
+/*    width: 1px;*/
+/*    margin: 0 18px;*/
+/*    background-color: darkblue;*/
+/*}*/
+/*.link-list{*/
+/*    font-size: 14px;*/
+/*    gap: 10px;*/
+/*    display: flex;*/
+/*}*/
+/*.link-list>a{*/
+/*    margin: 12px;*/
+/*    color:#2f2f2f;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.link-list> a i {*/
+/*    color: red;*/
+/*}*/
+/*.nav-center .nav-toggle{*/
+/*    height: 32px;*/
+/*    width: 56px;*/
+/*    background-color: #E47874;*/
+/*    border: none;*/
+/*    border-radius: 6px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.function{*/
+/*    gap: 50px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    color: #fff;*/
+/*}*/
+/*选择器进阶*/
+/*伪类选择器*/
+/*伪类一起使用  要遵循LVHA原则 link visited hover active*/
+/*div:hover{*/
+/*    background-color:red !important;*/
+/*}*/
+/*a:link{*/
+/*    color:blue;*/
+/*}*/
+/*a:visited{*/
+/*    color:red;*/
+/*}*/
+/*a:hover{*/
+/*    color:green;*/
+/*    text-decoration: none;*/
+/*}*/
+/*a:active{*/
+/*    color:orange;*/
+/*}*/
+/*input:focus {*/
+/*    background: green;*/
+/*}*/
+/*结构类伪类(根据元素在文档树的位置来选取元素)*/
+/*li:first-child{*/
+/*    background-color: blue;*/
+/*}*/
+/*li:last-child{*/
+/*    background-color: red;*/
+/*}*/
+/*.first li:nth-child(2n + 1){*/
+/*    background-color: orange;*/
+/*}*/
+/*.container a:first-child{*/
+/*    background-color: red;*/
+/*}*/
+/*.container p:first-of-type{*/
+/*    background-color: blue;*/
+/*}*/
+/*.container p:only-child{*/
+/*    background-color: red;*/
+/*}*/
+/*ul li:not(:first-child){*/
+/*    background-color: orange;*/
+/*}*/
+/*input{*/
+/*    border: 1px solid #a2b2b2;*/
+/*    border-radius: 20px;*/
+/*    line-height: 2;*/
+/*    padding: 0 12px;*/
+/*    width: 200px;*/
+/*}*/
+/*input::placeholder{*/
+/*    color: #dd00ff;*/
+/*}*/
+/*li::marker{*/
+/*    content: "🚀";*/
+/*}*/
+/*p::first-letter {*/
+/*    font-weight: bold;*/
+/*    font-size: 20px;*/
+/*    color: yellow;*/
+/*}*/
+/*p::selection{*/
+/*    background-color: red;*/
+/*    color: orange;*/
+/*}*/
+/*p::after{*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 10px;*/
+/*    height: 20px;*/
+/*    background: red;*/
+/*}*/
+/*嵌套选择器*/
+/*.card{*/
+/*    background-color: white;*/
+/*    border-radius: 15px;*/
+/*    h2{*/
+/*        font-size: 1.5rem;*/
+/*        color: #333;*/
+/*    }*/
+/*    p{ line-height: 1.6;}*/
+/*    a{ color: blue;}*/
+/*}*/
+/*.card{*/
+/*    &::after{content:"alksjdflkajs";}*/
+/*}*/
+
+

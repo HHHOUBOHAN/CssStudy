@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.apple-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    background-color: rgba(245,245,247, 0.8);
+    padding: 0 22px;
+    .apple-nav-list{
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.8);
+        height: 100%;
+        justify-content: space-between;
+    a{
+        font-size: 12px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    }
+}
+.apple-main{
+    padding-top: 44px;
+    .apple-announcement{
+        display: flex;
+        height: 44px;
+        justify-content: center;
+        font-size: 14px;
+        align-items: center;
+        a{
+            color: #0066cc;
+            text-decoration: none;
+            &:hover{ text-decoration: underline;}
+        }
+    }
+
+}
