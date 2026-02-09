@@ -1,0 +1,423 @@
+/*.text-box{*/
+    /*max-width: 800px;*/
+    /*!*width: 500px;*!*/
+    /*height: 100px;*/
+    /*background-color: rgba(255, 47, 0, 0.04);*/
+    /*min-width: 320px;*/
+    /*width: 80%;*/
+    /*height: 100px;*/
+    /*margin: auto;*/
+    /*outline: 2px solid #006fff;*/
+    /*border-radius: 15px;*/
+    /*outline-offset: 5px;*/
+    /*width: 200px;*/
+    /*height: 150px;*/
+    /*background-color: #f38f8f;*/
+    /*box-shadow: 10px 10px 10px grey inset;*/
+/*    text-shadow: 0 0 5px #000;*/
+/*}*/
+/*.test img{*/
+/*    vertical-align: middle;}*/
+/*.vip-icon{*/
+/*    display: inline-block;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    background-position: -50px 0;*/
+/*    background-image: url('/img/jinlingtu.webp');*/
+/*}*/
+/*.container {*/
+/*    color:  #227fd8;*/
+/*    !*color:  transparent;*!*/
+/*    !*background-clip: text;*!*/
+/*    !*background-image: linear-gradient(to right,pink,dodgerblue);*!*/
+/*    width: 300px;*/
+/*    height: 230px;*/
+/*    padding: 20px;*/
+/*    filter: drop-shadow(0 0 5px #351717);*/
+/*    border: 2px solid #3a1010;*/
+/*    border-radius: 5px;*/
+/*    background-image: url("https://th.bing.com/th/id/OIP.L9KkAX3pNYUiMPIDGRI7VQHaEo?w=264&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");*/
+/*    background-size: cover;*/
+/*    !*!*background:*!*!*/
+/*    !*!*        linear-gradient(to right, #e1dada)padding-box,*!*!*/
+/*    !*!*        linear-gradient(to right,blue,red,yellowgreen,blue,black)border-box;*!*!*/
+/*    !* background-image: radial-gradient(circle at left top,red 15%,yellow 50%);*!*/
+/*}*/
+/*body{*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-image: url("https://th.bing.com/th/id/OIP.L9KkAX3pNYUiMPIDGRI7VQHaEo?w=264&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");*/
+/*}*/
+/*.card{*/
+/*    width: 1500px;*/
+/*    height: 1500px;*/
+/*    padding: 10px 15px;*/
+/*    border-radius: 10px;*/
+/*    background-color: #ffffff60;*/
+/*    backdrop-filter: contrast(100%);*/
+/*}*/
+/*.box {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*    !* 表示横向移动10px，纵向移动20px *!*/
+/*    transform:  skew(45deg);*/
+/*}*/
+/*.box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: red;*/
+/*    transform-origin: left top;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+/*.box{*/
+/*        width: 50px;*/
+/*        height: 50px;*/
+/*        background-color: red;*/
+/*        transform: rotate(45deg) translate(10px);*/
+/*}*/
+/*.inner-box{*/
+/*            width: 150px;*/
+/*            height: 150px;*/
+/*            background-color: red;*/
+/*            transform: rotateX(80deg);*/
+/*}*/
+/*.outer-box {*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    border: 1px solid gray;*/
+/*    perspective: 500px;*/
+
+/*    .inner-box {*/
+/*        width: 100px;*/
+/*        height: 100px;*/
+/*        background-color: red;*/
+/*        transform: translateZ(100px);*/
+/*    }*/
+/*!*}*!*/
+/*.outer-box {*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    border: 1px solid gray;*/
+/*    perspective: 500px;*/
+
+
+/*    .inner-box {*/
+/*        width: 100px;*/
+/*        height: 100px;*/
+/*        background-color: rgba(255, 0, 0, 0.8);*/
+/*        transform: rotateX(45deg);*/
+/*        transform-style: preserve-3d;*/
+
+/*        .inner-box-2 {*/
+/*            width: 50px;*/
+/*            height: 50px;*/
+/*            background-color: #0080ff;*/
+/*            transform: rotateY(45deg);*/
+/*        }*/
+/*    }*/
+/*}*/
+/*.box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: red;*/
+/*    opacity: 0.1;*/
+/*}*/
+/*.simple-box{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: yellowgreen;*/
+/*    !* 设置需要过度的属性 *!*/
+/*    transition-property:  transform;*/
+/*    !* 过度动画的持续时间 *!*/
+/*    transition: transform .5s 3s  cubic-bezier(0.68, -0.55, 0.2, 1);*/
+/*    &:hover{transform: scale(1.05);}*/
+/*}*/
+/*button {*/
+/*    color: white;*/
+/*    padding: 10px 15px;*/
+/*    border: none;*/
+/*    border-radius: 8px;*/
+/*    cursor: pointer;*/
+/*    transition: transform 0.3s ease, box-shadow 0.5s ease;*/
+
+/*    &:hover {*/
+/*        transform: scale(1.05);*/
+/*    }*/
+/*}*/
+
+/*.btn-1 {*/
+/*    background-color: dodgerblue;*/
+/*    box-shadow: 0 0 10px rgba(0, 130, 255, 0.5);*/
+
+/*    &:hover { box-shadow: 0 0 15px rgba(0, 130, 255, 0.8); }*/
+/*}*/
+
+/*.btn-2 {*/
+/*    background-color: #ac1eff;*/
+/*    box-shadow: 0 0 10px rgba(123, 0, 255, 0.5);*/
+
+/*    &:hover { box-shadow: 0 0 15px rgba(153, 0, 255, 0.8); }*/
+/*}*/
+
+/*.btn-3 {*/
+/*    background-color: #18af2c;*/
+/*    box-shadow: 0 0 10px rgba(34, 255, 0, 0.5);*/
+
+/*    &:hover { box-shadow: 0 0 15px rgba(17, 255, 0, 0.8); }*/
+/*}*/
+
+/*.btn-4 {*/
+/*    background-color: #f88a19;*/
+/*    box-shadow: 0 0 10px rgba(255, 136, 0, 0.5);*/
+
+/*    &:hover { box-shadow: 0 0 15px rgba(255, 106, 0, 0.8); }*/
+/*}*/
+/*button{*/
+/*    color: #f4f1f1;*/
+/*    border: none;*/
+/*    padding: 10px 15px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: transform .3s ease-out ;*/
+/*    &:hover{transform: scale(1.05)}*/
+/*}*/
+/*.btn-1{*/
+/*    background-color: #5e0321;*/
+/*    box-shadow: 0 0 10px rgba(0, 130, 255, 0.5);*/
+/*}*/
+/*.btn-2{*/
+/*    background-color: #03055e;*/
+/*}*/
+/*.btn-3{*/
+/*    background-color: #065e03;*/
+/*}*/
+/*.btn-4{*/
+/*    background-color: #5e2903;*/
+/*}*/
+/*.flip-card{*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    perspective: 800px;*/
+/*}*/
+/*.flip-card-inner{*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    transform-style: preserve-3d;*/
+/*    transition: transform 0.4s;*/
+
+/*}*/
+/*.flip-card:hover .flip-card-inner{*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+/*.flip-card-front,.flip-card-back{*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border-radius: 10px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    backface-visibility: hidden;*/
+/*}*/
+/*!* 5. 正面特有样式 *!*/
+/*.flip-card-front {*/
+/*    background: linear-gradient(to right, #4facfe, #00f2fe);*/
+/*    color: white;*/
+/*}*/
+
+/*!* 6. 背面特有样式 *!*/
+/*.flip-card-back {*/
+/*    background-color: #2980b9;*/
+/*    color: white;*/
+/*    !* 重点：背面初始状态必须先旋转 180 度 *!*/
+/*    !* 这样当父容器旋转 180 度时，背面正好转回来变成 0 度（正面朝上） *!*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+
+
+
+
+
+/*.flip-card{*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    !*background-color:  transparent;*!*/
+/*    perspective: 1000px;*/
+/*    !*perspective 必须设置在父容器上*!*/
+/*    !*它为所有子元素创建了3D空间*!*/
+/*    !*没有它，rotateY等3D变换会看起来像2D倾斜*!*/
+/*}*/
+/*.flip-card-inner{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: relative;*/
+/*    !**/
+/*      特点：*/
+/*      1. 元素仍占据原来的文档流空间*/
+/*      2. 可以通过 top、right、bottom、left 微调位置*/
+/*      3. 成为绝对定位子元素的"定位参考点"*/
+/*    *!*/
+/*    transition: transform 0.6s;*/
+/*    text-align: center;*/
+/*    !*让「块级元素」内部的「行内元素 / 行内块元素」在水平方向上居中显示，*!*/
+/*    transform-style: preserve-3d;*/
+/*    !*为子元素创建 3D 空间，保留 3D 变换效果*!*/
+/*}*/
+/*.flip-card:hover .flip-card-inner{*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+/*.flip-card-front,.flip-card-back{*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border-radius: 10px;*/
+/*    position: absolute;*/
+/*    backface-visibility: hidden;*/
+/*    !*无 正面和背面的镜像 有 当元素背对屏幕时，完全透明/不可见*!*/
+/*    display: flex;*/
+/*    !*将元素变为弹性容器*!*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*}*/
+/*!*正面样式*!*/
+/*.flip-card-front {*/
+/*    background: linear-gradient(to right, #4facfe, #00f2fe);*/
+/*    color: white;*/
+/*}*/
+/*!*反面样式*!*/
+/*.flip-card-back {*/
+/*    background-color: #2980b9;*/
+/*    color: white;*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+/*.container{*/
+/*    width: calc(100% - 50px);*/
+/*    height: 100px;*/
+/*    background-color: #5a0101;*/
+/*}*/
+/*a::after{*/
+/*    content: attr(href);*/
+/*    display: inline-block;*/
+/*    margin-left: 1px;*/
+/*    color: #bcbcbc;*/
+/*    font-size: 0.8em;*/
+/*}*/
+/*.container{*/
+/*    width: min(90%, 500px);*/
+/*    height: 50px;*/
+/*    background-color:  red;*/
+/*}*/
+/*:root {*/
+/*    --primary-color: #099bf6;   !* 非常适合统一定义主色调，后期可以统一在这里更改 *!*/
+/*    --secondary-color: #7bbfed;*/
+/*    --text-color: #373737;*/
+/*}*/
+/*.main-btn {*/
+/*    border: none;*/
+/*    border-radius: 8px;*/
+/*    padding: 10px 15px;*/
+/*    color: var(--primary-color);*/
+/*    background-color: var(--secondary-color);*/
+/*}*/
+/*:root{*/
+/*    --bg-color: #f8f5f5;*/
+/*    --text-color: #751010;*/
+/*    --card-color: rgba(0, 255, 166, 0.45);*/
+/*    --btn-bg: #082153;*/
+/*}*/
+/*.dark:root{*/
+/*    --text-color: #c5adad;*/
+/*    --btn-bg: #334d81;*/
+/*    --card-color: rgba(91, 204, 164, 0.45);*/
+/*    --bg-color: rgba(204, 234, 204, 0.91);*/
+/*}*/
+/*body{*/
+/*    background-color: var(--bg-color);*/
+/*    color: var(--text-color);*/
+/*    transition: background-color .3s, color .3s;*/
+/*}*/
+/*.card{*/
+/*    width: 300px;*/
+/*    padding: 20px;*/
+/*    border-radius: 10px;*/
+/*    background-color: var(--card-color);*/
+/*    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);*/
+/*}*/
+/*button{*/
+/*    background-color: var(--btn-bg);*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 10px 20px ;*/
+/*    border-radius: 10px;*/
+/*    cursor: pointer;*/
+/*    margin-top: 100px*/
+/*!*}*!*/
+/*.container{*/
+/*    width: 300px;*/
+/*    height: 50px;*/
+/*    background-color: rgb(120, 11, 11);*/
+/*    animation-name: test,test2;*/
+/*    animation-duration: 2s,1s;*/
+/*    !*animation-delay: ;/!*/
+/*    animation-timing-function: ease-out;*/
+/*    &:hover{*/
+/*        animation-play-state: paused;*/
+/*    }*/
+/*}*/
+/*@media(prefers-color-scheme: dark){*/
+/*    .container{*/
+/*        background-color: rgb(11, 36, 120);*/
+/*    }*/
+/*}*/
+/*@keyframes test {*/
+/*     0%{*/
+/*         transform: translateY(0);*/
+/*     }*/
+/*    50%{*/
+/*        transform: translateY(100px);*/
+/*    }*/
+/*    100%{*/
+/*        transform: translateY(200px);*/
+/*    }*/
+/*    */
+/*}*/
+/*@keyframes test2 {*/
+/*    0%{*/
+/*         background-color: yellow;*/
+/*    }*/
+/*    50%{*/
+/*        background-color: rgba(179, 0, 255, 0.5);*/
+/*    }*/
+/*    100%{*/
+/*        background-color: #a2ff00;*/
+/*    }*/
+/*}*/
+/*@layer reset,base,components,utilities;*/
+/*.container{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*@layer utilities{*/
+/*    .container{*/
+/*        background-color: red !important;*/
+/*    }*/
+/*    !*div.container{*!*/
+/*    !*    background-color: #afa2a2;*!*/
+/*    !*}*!*/
+/*    .container{*/
+/*        background-color: #afa2a2;*/
+/*    }*/
+/*}*/
+/*@import "1.css";*/
+/*.container{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/

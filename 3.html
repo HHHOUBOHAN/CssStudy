@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+<!--最大和最小宽高 min-width max-width-->
+<!--   <div class="text-box">尽量靠近发生了纠纷</div>-->
+<!--盒子轮廓 outline outline-offset-->
+<!--不占据空间 边框外绘制（可能会遮挡外部的其他元素）-->
+<!--盒子阴影  box-shadow text-shadow 不占据空间 -->
+<!--行内纵向对齐 vertical-align-->
+<!--<div class="test">-->
+<!--    带回家撒大家卡仕达手机卡三等奖哈三等奖卡仕达酱卡好的卡仕达可接受的-->
+<!--    <a href="index.html">点我啊</a>-->
+<!--    <img width="120" src="https://img1.baidu.com/it/u=1005000719,311741344&fm=253&fmt=auto&app=138&f=JPEG">-->
+<!--</div>-->
+<!--精灵图 background-position-->
+<!--<div>-->
+<!--    欢迎你 尊贵的VIP会员-->
+<!--    <div class="vip-icon"></div>-->
+<!--</div>-->
+<!--********-->
+<!--颜色渐变  background-image: linear-gradient(to top,red, yellow)
+background-image: radial-gradient(red,yellow);-->
+<!--<span class="container">-->
+<!--    就拉萨解放垃圾地方了-->
+<!--</span>-->
+<!--********-->
+<!--过滤 filter: blur(1px) filter: brightness(150%) filter: contrast(15%) filter: grayscale(100%);;;;-->
+<!--<div class="container">-->
+<!--&lt;!&ndash;    我是盒子里面的字 看着很漂亮&ndash;&gt;-->
+<!--</div>-->
+<!--背景过滤器-->
+<!--<div class="card">我是卡片的文本</div>-->
+<!--二维和三围变换(仅是视觉上 原本位置不变) transform: translate(10px, 20px);上下左右移动 transform:  scale(12);放大缩小transform:  skew(45deg);倾斜效果-->
+<!--<div>-->
+<!--    <div class="box"></div>-->
+<!--    <div>熊大，坐直升机的感觉可真舒服，就跟牢大一样</div>-->
+<!--</div>-->
+<!--原点变换 transform-origin: left top;-->
+<!--<div>-->
+<!--    <div class="box"></div>-->
+<!--    <div>熊大，坐直升机的感觉可真舒服，就跟牢大一样</div>-->
+<!--</div>-->
+<!--组合变换transform: rotate(45deg) translate(10px); 当同时对元素进行平移，旋转 缩放顺序一定要确定  顺序不一样就可能位置不一样-->
+<!--<div>-->
+<!--    <div class="box"></div>-->
+<!--    <div>熊大，坐直升机的感觉可真舒服，就跟牢大一样</div>-->
+<!--</div>-->
+<!--三维变换-->
+<!--<div class="inner-box"></div>-->
+<!--<div class="outer-box">-->
+<!--    <div class="inner-box"></div>-->
+<!--</div>-->
+<!--<div class="outer-box">-->
+<!--    <div class="inner-box">-->
+<!--        <div class="inner-box-2"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--透明效果-->
+<!--<div class="box">-->
+<!--    文法撒旦解放-->
+<!--</div>-->
+<!--过度效果-->
+<!--<div class="simple-box"></div>-->
+<!--按钮美化（利用阴影）-->
+<!--<div style="display: flex; gap: 20px">-->
+<!--    <button class="btn-1">点击购买</button>-->
+<!--    <button class="btn-2">点击购买</button>-->
+<!--    <button class="btn-3">点击购买</button>-->
+<!--    <button class="btn-4">点击购买</button>-->
+<!--3D旋转卡片-->
+<!--</div>-->
+<!--<div class="flip-card">-->
+<!--    <div class="flip-card-inner">-->
+<!--        &lt;!&ndash; 正面 &ndash;&gt;-->
+<!--        <div class="flip-card-front">-->
+<!--            <h2>前端开发</h2>-->
+<!--            <p>HTML & CSS</p>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; 背面 &ndash;&gt;-->
+<!--        <div class="flip-card-back">-->
+<!--            <h2>课程详情</h2>-->
+<!--            <p>那么这一时刻又有老铁问了，羊哥羊哥，你嘚技术，到底是怎么练的。</p>-->
+<!--            <button>立即学习</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+<!--<div class="flip-card">-->
+<!--    <div class="flip-card-inner">-->
+<!--        &lt;!&ndash; 正面 &ndash;&gt;-->
+<!--        <div class="flip-card-front">       &lt;!&ndash; 第3层：正面内容 &ndash;&gt;-->
+<!--            <h2>前端开发</h2>-->
+<!--            <p>HTML & CSS</p>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; 背面 &ndash;&gt;-->
+<!--        <div class="flip-card-back">        &lt;!&ndash; 第3层：背面内容 &ndash;&gt;-->
+<!--            <h2>课程详情</h2>-->
+<!--            <p>那么这一时刻又有老铁问了，羊哥羊哥，你嘚技术，到底是怎么练的。</p>-->
+<!--            <button>立即学习</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--动态计算 width: calc(100% - 20px);-->
+<!--<div class="container"></div>-->
+<!--属性获取content: attr(href);-->
+<!--<a href="https://weread.qq.com/">我是链接</a>-->
+<!--数值比较 min(90%, 500px) -->
+<!--<div class="container"></div>-->
+<!--CSS变量  color: var(--primary-color);-->
+<!-- <button class="main-btn">我是按钮</button>-->
+<!--深色适配-->
+<!--<div class="card">-->
+<!--    <h2>变量很棒</h2>-->
+<!--    <p>利用变量可以轻松主题切换</p>-->
+<!--    <button>切换主题</button>-->
+<!--</div>-->
+<!--媒体查询@media(max-width:700px)-->
+<!--<div class="container"></div>-->
+<!--深色模式-->
+<!--*********-->
+<!--动画 animation-->
+<!--层叠优先级控制-->
+<!--其他常用AT规则-->
+
+
+
+</body>
+</html>

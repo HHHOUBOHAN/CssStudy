@@ -381,5 +381,7 @@
 /*.card{*/
 /*    &::after{content:"alksjdflkajs";}*/
 /*}*/
-
+.container{
+    background-color: #8c1a1a;
+}
 
